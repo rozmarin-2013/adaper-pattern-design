@@ -1,5 +1,9 @@
 <?php
 
+namespace NewsApi;
+
+use NewsDto;
+
 class NewsApiClientAdapter implements NewsClientInterface
 {
     private NewsApiClientInterface $newsApiClient;
@@ -8,6 +12,7 @@ class NewsApiClientAdapter implements NewsClientInterface
     {
         $this->newsApiClient = $newsApiClient;
     }
+
     /**
      * @inheritDoc
      */

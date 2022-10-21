@@ -1,5 +1,8 @@
 <?php
 
+namespace NewsApi;
+use NewsDto;
+
 interface NewsClientInterface
 {
     /**
@@ -11,8 +14,8 @@ interface NewsClientInterface
      * @throws RuntimeException
      */
     public function search(
-        string $query,
+        string   $query,
         DateTime $fromDate,
-        int $limit
+        int      $limit
     ): array;
 }

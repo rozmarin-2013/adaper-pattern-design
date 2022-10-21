@@ -1,0 +1,15 @@
+{
+    "name": "marina/adapter",
+    "authors": [
+        {
+            "name": "Marina",
+            "email": "m.nastsenka@alekseon.com"
+        }
+    ],
+    "require": {
+        "ausi/slug-generator": "^1.1"
+    },
+    "autoload": {
+        "psr-4": { "": "src/" }
+    }
+}
